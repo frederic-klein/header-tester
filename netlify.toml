@@ -12,4 +12,4 @@
     Content-Security-Policy = "self"
     X-Frame-Options = "SAMEORIGIN"
     X-Content-Type-Options = "nosniff"
-    Permissions-Policy: "geolocation=(), microphone=()"
+    Permissions-Policy = "geolocation=(), microphone=()"
