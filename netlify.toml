@@ -4,12 +4,3 @@
   publish = "netlify"
 
   ## more info on configuring this file: https://www.netlify.com/docs/netlify-toml-reference/
-
-[[headers]]
-  for = "/*"
-  [headers.values]
-    Referrer-Policy = "same-origin"
-    Content-Security-Policy = "self"
-    X-Frame-Options = "SAMEORIGIN"
-    X-Content-Type-Options = "nosniff"
-    Permissions-Policy = "geolocation=(), microphone=()"
