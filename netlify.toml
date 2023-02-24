@@ -8,4 +8,8 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    Referrer-Policy = "no-referrer-when-downgrade"
+    Referrer-Policy = "same-origin"
+    Content-Security-Policy = "self"
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Permissions-Policy: "geolocation=(), microphone=()"
